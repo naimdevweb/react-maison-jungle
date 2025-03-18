@@ -1,0 +1,39 @@
+.lmj-shopping-list {
+	width: 100%;
+}
+
+.lmj-plant-list {
+	list-style-type: none;
+	padding: 32px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.ajouter {
+	background-color: #31b572;
+	color: white;
+	border: none;
+	padding: 10px 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-right: 10px; 
+	margin-left: 10px;
+}
+
+.ajouter:hover {
+	background-color: #218b4b;
+}
+
+.supprimer {
+	background-color: #e8505b;
+	color: white;
+	border: none;
+	padding: 10px 10px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.supprimer:hover {
+	background-color: #b0353a;
+}
